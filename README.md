@@ -112,7 +112,7 @@ Open:
 ```
 http://127.0.0.1:8000/greeting
 ```
-![alt text](image.png)
+(image.png)
 
 
 Open:
@@ -120,7 +120,7 @@ Open:
 ```
 http://127.0.0.1:8000/name
 ```
-![alt text](image-1.png)
+(image-1.png)
 ---
 
 ## Testing with curl
