@@ -22,7 +22,7 @@ It demonstrates:
 
 ## Project Structure
 
-```
+```text
 assignment1-build-your-first-api-endpoint/
 │
 ├── main.py
@@ -61,7 +61,7 @@ py -m uvicorn main:app --reload
 
 The server will start at:
 
-```
+```text
 http://127.0.0.1:8000
 ```
 
@@ -71,13 +71,15 @@ http://127.0.0.1:8000
 
 ### Greeting Endpoint
 
-**GET**
+**Method:** `GET`
 
-```
+**URL**
+
+```text
 /greeting
 ```
 
-Response
+**Response**
 
 ```json
 {
@@ -89,13 +91,15 @@ Response
 
 ### Name Endpoint
 
-**GET**
+**Method:** `GET`
 
-```
+**URL**
+
+```text
 /name
 ```
 
-Response
+**Response**
 
 ```json
 {
@@ -107,20 +111,16 @@ Response
 
 ## Testing in Browser
 
-Open:
+Open the following URLs in your browser:
 
-```
+```text
 http://127.0.0.1:8000/greeting
 ```
-(image.png)
 
-
-Open:
-
-```
+```text
 http://127.0.0.1:8000/name
 ```
-(image-1.png)
+
 ---
 
 ## Testing with curl
@@ -141,4 +141,4 @@ curl http://127.0.0.1:8000/name
 
 ## Author
 
-Neha
+**Neha**
