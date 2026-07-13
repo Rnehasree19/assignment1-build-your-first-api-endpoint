@@ -36,7 +36,7 @@ assignment1-build-your-first-api-endpoint/
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Rnehasree19/assignment1-build-your-first-api-endpoint.git
 ```
 
 Move into the project folder:
